@@ -1,5 +1,5 @@
 import {Request, Response} from 'express';
-import AlunoService from '../../secretaria/services/alunoservice';
+import AlunoService from '../../secretaria/services/disciplinaservice';
 
 class AlunoController{
     all(_:Request, res:Response): void{
